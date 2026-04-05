@@ -1,0 +1,94 @@
+{
+  "skill_name": "buffett-wisdom",
+  "evals": [
+    {
+      "id": 0,
+      "prompt": "解释巴菲特的\"护城河\"概念，用他的话和实际案例说明",
+      "expected_output": "Should explain 护城河 with Buffett's own quotes (e.g. from 2007 letter), identify two types (low-cost like GEICO, strong brand like Coca-Cola), include specific investment returns or data points, and mention related concepts like 内在价值 and 竞争优势",
+      "files": [],
+      "assertions": [
+        {
+          "text": "Contains Buffett's 2007 letter quote about durable moats and 'a moat that needs constant rebuilding equals no moat'",
+          "passed": false,
+          "evidence": ""
+        },
+        {
+          "text": "Identifies two types of moats: low-cost (GEICO) and strong brand (Coca-Cola/吉列)",
+          "passed": false,
+          "evidence": ""
+        },
+        {
+          "text": "Includes at least one specific investment return or data point (e.g., GEICO 2.5% to 12% market share)",
+          "passed": false,
+          "evidence": ""
+        },
+        {
+          "text": "Links to related concepts: 内在价值, 竞争优势, or 护城河",
+          "passed": false,
+          "evidence": ""
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "prompt": "巴菲特怎么看市场波动？市场先生这个比喻是什么意思？",
+      "expected_output": "Should explain Mr. Market allegory from Graham, include Buffett's 1987 letter quote about market being a servant not a guide, explain how volatility creates opportunity for rational investors, mention specific cases like 1973 Washington Post",
+      "files": [],
+      "assertions": [
+        {
+          "text": "Explains Mr. Market originates from Graham's Intelligent Investor, not Buffett's invention",
+          "passed": false,
+          "evidence": ""
+        },
+        {
+          "text": "Contains the 1987 letter quote: 'market is your servant, not your guide' (or Chinese equivalent)",
+          "passed": false,
+          "evidence": ""
+        },
+        {
+          "text": "Explains that market volatility creates opportunities for rational investors",
+          "passed": false,
+          "evidence": ""
+        },
+        {
+          "text": "Gives a specific historical example (1973 Washington Post, 1987 crash, or 2008 crisis)",
+          "passed": false,
+          "evidence": ""
+        },
+        {
+          "text": "Links to related concepts: 安全边际, 内在价值, or 有效市场",
+          "passed": false,
+          "evidence": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "巴菲特投资苹果的逻辑是什么？从他的股东信里找依据",
+      "expected_output": "Should explain Buffett's Apple investment thesis using vault company file 苹果.md and relevant Berkshire letters, discuss moat type, brand loyalty, capital allocation rationale, and cite specific passages",
+      "files": [],
+      "assertions": [
+        {
+          "text": "Uses Buffett's moat framework to analyze Apple (durable competitive advantage)",
+          "passed": false,
+          "evidence": ""
+        },
+        {
+          "text": "Cites specific Buffett quotes about Apple from Berkshire letters in the vault",
+          "passed": false,
+          "evidence": ""
+        },
+        {
+          "text": "Discusses Apple's brand loyalty, ecosystem, or pricing power as moat components",
+          "passed": false,
+          "evidence": ""
+        },
+        {
+          "text": "Mentions related concepts: 护城河, 内在价值, or 管理层",
+          "passed": false,
+          "evidence": ""
+        }
+      ]
+    }
+  ]
+}
